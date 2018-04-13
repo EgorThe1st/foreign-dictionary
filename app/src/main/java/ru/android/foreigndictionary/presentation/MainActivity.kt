@@ -10,7 +10,6 @@ import ru.android.foreigndictionary.R
 import ru.android.foreigndictionary.presentation.history.HistoryFragment
 import ru.android.foreigndictionary.presentation.translator.TranslatorFragment
 
-
 class MainActivity : AppCompatActivity(), TranslatorFragment.Callback {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,7 +35,6 @@ class MainActivity : AppCompatActivity(), TranslatorFragment.Callback {
         val tabHistory = tab_layout.getTabAt(1)
         tabTranslate?.icon = getDrawable(R.drawable.ic_translate_black_24dp)
         tabHistory?.icon = getDrawable(R.drawable.ic_view_list_black_24dp)
-
     }
 
     private inner class PagerAdapter(fragmentManager: FragmentManager) :

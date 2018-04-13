@@ -33,7 +33,6 @@ class TranslatorFragment : Fragment(), ITranslatorPresenter.View {
         if (context is Callback) {
             listener = context
         }
-
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -82,6 +81,7 @@ class TranslatorFragment : Fragment(), ITranslatorPresenter.View {
         translate_button.isEnabled = false
         translated_word.setGone()
         text_input.setGone()
+        clear_button.setGone()
         progress_bar.setVisible()
     }
 
@@ -89,6 +89,7 @@ class TranslatorFragment : Fragment(), ITranslatorPresenter.View {
         translate_button.isEnabled = true
         translated_word.setVisible()
         text_input.setVisible()
+        clear_button.setVisible()
         progress_bar.setGone()
     }
 
