@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Foreign Dictionary</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_english">Английский</string>
+    <string name="lang_de">Немецкий</string>
+    <string name="error_abs">Произошла ошибка</string>
+    <string name="error_no_connection">Ошибка! Нет интернет-соединения</string>
+    <string name="error_empty_field">Введите слово</string>
+    <string name="error_empty_history">Словарь пуст</string>
+    <string name="error_not_found">Слов не найдено</string>
+    <string name="hint_enter_word">Слово для перевода</string>
+    <string name="alert_clear_dictionary">Очистить словарь?</string>
+    <string name="attention">Внимание</string>
+
+</resources>
