@@ -37,6 +37,8 @@ class TranslatorFragment : Fragment(), ITranslatorPresenter.View {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        
+        // На реальном проекте использовал бы dagger для DI и одну из существующих библиотек для релизации MVP 
         presenter = TranslatorPresenter(this)
         presenter.start()
     }
